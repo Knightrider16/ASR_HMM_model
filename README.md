@@ -10,6 +10,11 @@ The model uses **MFCC** (Mel-Frequency Cepstral Coefficients) features extracted
 - **MFCC Features**: Uses MFCC for feature extraction.
 - **HMM Decoding**: Hidden Markov Model for sequence prediction.
 
+## Acknowledgments
+- **Free Spoken Digit Dataset (FSDD)** by **Zohar Jackson**: This dataset is used for training and testing the ASR model. It contains recorded spoken digits (0-9) from various speakers. You can access the dataset [here](https://github.com/Jakobovski/free-spoken-digit-dataset).
+  - This dataset is licensed under the **MIT License**.
+- **HMMlearn**: The library used for Hidden Markov Model implementation.
+
 ## Installation
 
 To set up this project, follow these steps:
